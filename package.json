@@ -1,0 +1,28 @@
+{
+  "name": "otakuhub",
+  "version": "1.0.0",
+  "description": "An online anime streaming platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D1ma6/otakuhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D1ma6/otakuhub/issues"
+  },
+  "homepage": "https://github.com/D1ma6/otakuhub#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

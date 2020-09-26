@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otakuhub</title>
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <div class="header__inner__logo">
+          <a href="/"><img src="./images/icons/logo.svg" alt="logo" /></a>
+        </div>
+        <!-- /.header__inner__logo -->
+        <div class="header__inner__main">
+          <nav class="header__inner__main__nav">
+            <ul class="header__inner__main__nav__ul">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/">News</a>
+              </li>
+              <li>
+                <a href="/">Movies</a>
+              </li>
+              <li class="">
+                <a href="/">Series</a>
+              </li>
+              <li>
+                <a href="/">Forum</a>
+              </li>
+            </ul>
+            <!-- /.header__inner__main__nav__ul -->
+          </nav>
+          <!-- /.header__inner__main__nav -->
+          <form
+            action="/search"
+            method="post"
+            class="header__inner__main__search"
+          >
+            <p><input type="text" name="search" placeholder="Search..." /></p>
+          </form>
+          <!-- /.header__inner__main__search -->
+        </div>
+        <!-- /.header__inner__main -->
+        <div class="header__inner__profile">
+          <nav class="header__inner__profile__nav">
+            <ul class="header__inner__profile__nav__ul">
+              <li>
+                <a href="/"><img src="./images/icons/menu.svg" alt="menu" /></a>
+              </li>
+              <li>
+                <a href="/"><img src="./images/icons/bell.svg" alt="bell" /></a>
+              </li>
+              <li>
+                <a href="/"><img src="./images/profile.png" alt="profile" /></a>
+              </li>
+              <li>
+                <a href="/"
+                  ><img src="./images/icons/logInOut.svg" alt="logInOut"
+                /></a>
+              </li>
+            </ul>
+            <!-- /.header__inner__profile__nav__ul -->
+          </nav>
+          <!-- /.header__inner__profile__nav -->
+        </div>
+        <!-- /.header__inner__profile -->
+      </div>
+      <!-- /.header__inner container -->
+    </header>
+    <!-- /.header -->
+    <!-- javascript -->
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

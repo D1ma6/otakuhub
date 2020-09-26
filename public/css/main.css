@@ -1,0 +1,153 @@
+/*
+  imports
+*/
+.header {
+  background: #010101;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.header__inner {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header__inner__logo {
+  width: 36px;
+  height: 23px;
+}
+
+.header__inner__main {
+  display: flex;
+  max-width: 1020px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__inner__main__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__inner__main__nav ul {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.header__inner__main__nav ul li {
+  margin: 0 40px 0 0;
+}
+
+.header__inner__main__nav ul li a {
+  transition: color 0.3s ease-in-out;
+}
+
+.header__inner__main__nav ul li a:hover {
+  color: #f12424;
+}
+
+.header__inner__main__search {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+}
+
+.header__inner__main__search p {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header__inner__main__search p input {
+  max-width: 400px;
+  width: 100%;
+  min-height: 36px;
+  height: 100%;
+  padding: 0 32px 0 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 36px;
+}
+
+.header__inner__main__search p::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: url("./../images/icons/search.svg");
+  right: 12px;
+}
+
+.header__inner__profile__nav__ul {
+  display: flex;
+  align-items: center;
+}
+
+.header__inner__profile__nav__ul li {
+  margin: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__inner__profile__nav__ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.header__inner__profile__nav__ul li:nth-child(3) {
+  margin: 0 10px 0 0;
+}
+
+.header__inner__profile__nav__ul li:nth-child(3) a > img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.header__inner__profile__nav__ul li:last-child {
+  margin: 0;
+}
+
+/*
+  Basics
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+}
+
+body {
+  background: url("./../images/background.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/*
+  Helper classes
+*/
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
